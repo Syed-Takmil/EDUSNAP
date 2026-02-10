@@ -185,17 +185,18 @@
   .av-ph { width:100%;height:100%;background:linear-gradient(135deg,rgba(72,120,255,.2),rgba(122,79,255,.25)); display:flex;align-items:center;justify-content:center;font-size:28px;color:rgba(255,255,255,.25); }
   .sc:nth-child(2) .av-ph { background:linear-gradient(135deg,rgba(255,79,123,.18),rgba(255,154,92,.2)); }
   .sinfo { width:100%; }
-  .sname { font-family:'Syne',sans-serif; font-size:15px; font-weight:700; color:#fff; letter-spacing:-.3px; margin-bottom:4px; min-height:18px; }
-  .sname.e::after  { content:'Name Here'; color:rgba(255,255,255,.15); font-style:italic; }
+  .sname
+   { font-family:'Syne',sans-serif; font-size:15px; font-weight:700; color:#fff; letter-spacing:-.3px; margin-bottom:4px; min-height:18px; }
+  
   .srole { font-size:11px; color:#7aabff; font-family:'Space Mono',monospace; letter-spacing:.06em; margin-bottom:10px; min-height:14px; }
   .sc:nth-child(2) .srole { color:#ff8aaa; }
-  .srole.e::after  { content:'Role / Year'; color:rgba(255,255,255,.15); font-style:italic; }
+
   .stags { display:flex; flex-wrap:wrap; gap:5px; justify-content:center; min-height:26px; }
   .stag  { font-size:10px; font-weight:700; padding:4px 10px; border-radius:100px; background:rgba(72,120,255,.15); border:1px solid rgba(72,120,255,.3); color:#7aabff; font-family:'Manrope',sans-serif; letter-spacing:.04em; }
   .sc:nth-child(2) .stag { background:rgba(255,79,123,.12); border-color:rgba(255,79,123,.3); color:#ff8aaa; }
-  .stag.ph { color:rgba(255,255,255,.15); background:rgba(255,255,255,.04); border-color:rgba(255,255,255,.08); font-style:italic; }
-  .sbio { font-size:11px; color:rgba(255,255,255,.38); line-height:1.55; margin-top:8px; min-height:32px; }
-  .sbio.e::after { content:'Short info about the solver will go here...'; color:rgba(255,255,255,.15); font-style:italic; }
+  .stag.ph { color:rgba(255,255,255,.26); background:rgba(255,255,255,.04); border-color:rgba(255,255,255,.08); font-style:italic; }
+  .sbio { font-size:11px; color:rgba(255,255,255,.678); line-height:1.55; margin-top:8px; min-height:32px; }
+ 
 
   /* EduSnap logo */
   .es-logo { display:flex; align-items:center; gap:12px; margin-bottom:30px; }
