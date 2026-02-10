@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webby</title>
+    <style>
+        nav{
+            display:flex;
+            justify-content: space-between;
+        }
+        nav a{
+            margin-right:20px;
+            text-decoration:none;
+            color:blueviolet;
+            font-size:20px;
+        }
+        fieldset{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   font-size:20px;
+   border:3px solid black;
+   width: 70%;
+   height:80vh;
+
+   /* Important*/
+   overflow:auto;
+   padding:20px;
+        }
+        .button{
+            font-size:18px;
+            padding:5px;
+            color:white;
+            background-color:orange;
+            border:1px solid black;
+            border-radius: 1000px;
+            width:100px;
+        }
+        .button:hover{
+            background-color:blueviolet;
+            cursor:pointer;
+        }
+        span{
+            display: flex;
+            gap:20px;
+
+        }
+     textarea{
+            font-size:18px;
+           padding:10px;
+           height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+           <div> <a href="">Home</a>
+             <a href="">Contact</a>
+            <a href="">About</a>
+            <a href="">Services</a></div>
+            <a href="">LogIn</a>
+
+        </nav>
+    </header>
+    <h1><Form>
+        <fieldset>
+            <legend>Fill The Form</legend>
+             Name: <input type="text" placeholder="Write Your Name">
+    Email: <input type="email" placeholder="Write your Email here" required>  
+    Password:<input type="password" id="password" required>
+    Message: <textarea placeholder="Any Message for us"></textarea>
+  <span>  <input type="submit" value="Submit" class="button">
+    <input type="reset" class="button" value="Reset"></span>
+        </fieldset>
+   
+
+    </Form></h1>
+</body>
+</html>
