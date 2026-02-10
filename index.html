@@ -6,74 +6,205 @@
      <link rel="icon" href="favicon.jpg" type="favicon">
     <title>Edusnap </title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Mono:wght@400;700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  
-   <div class="poster">
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
 
+
+<body>
+
+<!-- NAV BAR -->
+<nav class="navbar">
+  <button class="nav-btn active" onclick="showPage('ssc',this)">
+    <span class="nav-icon">📚</span> SSC Q&amp;A
+  </button>
+  <button class="nav-btn" onclick="showPage('hsc',this)">
+    <span class="nav-icon">🎓</span> HSC Section
+  </button>
+  <button class="nav-btn" onclick="showPage('edusnap',this)">
+    <span class="nav-icon">⚡</span> EduSnap
+  </button>
+</nav>
+
+<!-- ══════════ PAGE 1 · SSC ══════════ -->
+<div class="page active" id="page-ssc">
+<div class="poster">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
   <div class="content">
 
-    <div class="badge">
-      <span class="badge-dot"></span>
-      WhatsApp Study Group — Now Open
-    </div>
-
-    <div class="headline">SSC <span>Q/A</span><br>Group</div>
+    <div class="badge blue"><span class="badge-dot dot-green"></span>WhatsApp Study Group — Now Open</div>
+    <div class="headline">SSC <span class="gblue">Q&amp;A</span><br>Group</div>
     <div class="subhead">Instant Answers · Real Guidance</div>
-
-    <div class="divider"></div>
+    <div class="divider div-blue"></div>
 
     <div class="subjects">
-      <span class="pill pill-physics">⚡ Physics</span>
-      <span class="pill pill-math">∑ Math</span>
-      <span class="pill pill-hmath">∫ H. Math</span>
-      <span class="pill pill-chem">🧪 Chemistry</span>
-      <span class="pill pill-ict">💻 ICT</span>
+      <span class="pill p-phy">⚡ Physics</span>
+      <span class="pill p-mat">∑ Math</span>
+      <span class="pill p-hma">∫ H. Math</span>
+      <span class="pill p-che">🧪 Chemistry</span>
+      <span class="pill p-ict">💻 ICT</span>
     </div>
 
     <div class="features">
-      <div class="card">
-        <div class="icon-box icon-blue">⚡</div>
-        <div>
-          <div class="card-title">Instant Doubt Solving</div>
-          <div class="card-desc">Get quick answers on Physics, Math, H. Math, Chemistry & ICT — no long waits.</div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="icon-box icon-green">🎓</div>
-        <div>
-          <div class="card-title">Guided by CUET CSE Students</div>
-          <div class="card-desc">Real seniors who've been through SSC — giving you smart, experience-backed guidance.</div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="icon-box icon-purple">🤝</div>
-        <div>
-          <div class="card-title">Supportive Study Environment</div>
-          <div class="card-desc">A safe, focused space to ask anything without hesitation and grow together.</div>
-        </div>
-      </div>
+      <div class="card cb"><div class="ibox ib">⚡</div><div><div class="card-title">Instant Doubt Solving</div><div class="card-desc">Get quick answers on Physics, Math, H. Math, Chemistry & ICT — no long waits.</div></div></div>
+      <div class="card cb"><div class="ibox ig">🎓</div><div><div class="card-title">Guided by CUET CSE Students</div><div class="card-desc">Real seniors who've been through SSC — giving you smart, experience-backed guidance.</div></div></div>
+      <div class="card cb"><div class="ibox ip">🤝</div><div><div class="card-title">Supportive Study Environment</div><div class="card-desc">A safe, focused space to ask anything without hesitation and grow together.</div></div></div>
     </div>
 
-    <div class="bottom-bar">
-      <div>
-        <div class="cuet-badge"><span>CUET</span> CSE</div>
-        <div class="cuet-sub">Chittagong University of Eng. & Tech.</div>
+    <div class="bot bot-b">
+      <div><div class="brand-name" style="color:#7aabff">CUET <span style="color:#fff">CSE</span></div><div class="brand-sub">Chittagong University of Eng. & Tech.</div></div>
+      <button class="jbtn jb">Join the Group →</button>
+    </div>
+
+    <div class="sec-div"><div class="sdl"></div><span class="sec-lbl">Meet Your Solvers</span><div class="sdlr"></div></div>
+
+    <div class="solvers-grid">
+      <div class="sc">
+        <div class="savatar"><!-- <img src="solver1.jpg" alt="Solver 1"> --><div class="av-ph">👤</div></div>
+        <div class="sinfo">
+          <div class="sname e"></div>
+          <div class="srole e"></div>
+          <div class="stags"><span class="stag ph">Subjects</span></div>
+          <div class="sbio e"></div>
+        </div>
       </div>
-     <a href="https://chat.whatsapp.com/Jhh4wV7vRl5B41x2nbCvcI"> <button class="join-btn">Join the Group →</button></a>
+      <div class="sc">
+        <div class="savatar"><!-- <img src="solver2.jpg" alt="Solver 2"> --><div class="av-ph">👤</div></div>
+        <div class="sinfo">
+          <div class="sname e"></div>
+          <div class="srole e"></div>
+          <div class="stags"><span class="stag ph">Subjects</span></div>
+          <div class="sbio e"></div>
+        </div>
+      </div>
     </div>
 
   </div>
 </div>
-</naver>
+</div>
+
+<!-- ══════════ PAGE 2 · HSC ══════════ -->
+<div class="page" id="page-hsc">
+<div class="poster">
+  <div class="blob h1"></div><div class="blob h2"></div><div class="blob h3"></div>
+  <div class="content">
+
+    <div class="badge teal"><span class="badge-dot dot-teal"></span>HSC WhatsApp Group — Active</div>
+    <div class="headline">HSC <span class="gteal">Q&amp;A</span><br>Group</div>
+    <div class="subhead">Board Level · Deeper Guidance</div>
+    <div class="divider div-teal"></div>
+
+    <div class="subjects">
+      <span class="pill p-phy">⚡ Physics</span>
+      <span class="pill p-mat">∑ Math</span>
+      <span class="pill p-hma">∫ H. Math</span>
+      <span class="pill p-che">🧪 Chemistry</span>
+      <span class="pill p-bio">🌿 Biology</span>
+      <span class="pill p-ict">💻 ICT</span>
+      <span class="pill p-eng">📖 English</span>
+      <span class="pill p-ban">✍️ Bangla</span>
+    </div>
+
+    <div class="features">
+      <div class="card ct"><div class="ibox it">🔥</div><div><div class="card-title">Board Exam Focused</div><div class="card-desc">Targeted help for HSC board prep — MCQ tricks, CQ strategies & model answers.</div></div></div>
+      <div class="card ct"><div class="ibox ib">🎓</div><div><div class="card-title">Senior Mentorship</div><div class="card-desc">Guided by CUET CSE students who cleared HSC — real advice, not just textbook theory.</div></div></div>
+      <div class="card ct"><div class="ibox io">📊</div><div><div class="card-title">All Subjects Covered</div><div class="card-desc">Physics, Math, Chemistry, Biology, ICT, English & Bangla — one group for everything.</div></div></div>
+      <div class="card ct"><div class="ibox ip">💡</div><div><div class="card-title">Doubt → Answer Fast</div><div class="card-desc">Post your question, get a clear explanation within the day. No hesitation needed.</div></div></div>
+    </div>
+
+    <div class="bot bot-t">
+      <div><div class="brand-name" style="color:#4dffcc">CUET <span style="color:#fff">CSE</span></div><div class="brand-sub">Chittagong University of Eng. & Tech.</div></div>
+      <button class="jbtn jt">Join HSC Group →</button>
+    </div>
+
+    <div class="sec-div"><div class="sdl"></div><span class="sec-lbl">Meet Your Solvers</span><div class="sdlr"></div></div>
+
+    <div class="solvers-grid">
+      <div class="sc">
+        <div class="savatar"><!-- <img src="hsc_s1.jpg" alt="Solver 1"> --><div class="av-ph">👤</div></div>
+        <div class="sinfo">
+          <div class="sname e"></div>
+          <div class="srole e"></div>
+          <div class="stags"><span class="stag ph">Subjects</span></div>
+          <div class="sbio e"></div>
+        </div>
+      </div>
+      <div class="sc">
+        <div class="savatar"><!-- <img src="hsc_s2.jpg" alt="Solver 2"> --><div class="av-ph">👤</div></div>
+        <div class="sinfo">
+          <div class="sname e"></div>
+          <div class="srole e"></div>
+          <div class="stags"><span class="stag ph">Subjects</span></div>
+          <div class="sbio e"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- ══════════ PAGE 3 · EDUSNAP ══════════ -->
+<div class="page" id="page-edusnap">
+<div class="poster">
+  <div class="blob e1"></div><div class="blob e2"></div><div class="blob e3"></div>
+  <div class="content">
+
+    <div class="badge gold"><span class="badge-dot dot-gold"></span>About EduSnap</div>
+
+    <div class="es-logo">
+      <div class="es-mark">⚡</div>
+      <div>
+        <div class="es-name">Edu<span>Snap</span></div>
+        <div class="es-tag">Your Academic Support Hub</div>
+      </div>
+    </div>
+
+    <div class="divider div-gold"></div>
+
+    <div class="stat-row">
+      <div class="sbox"><div class="snum g">SSC</div><div class="slbl">Q&amp;A Group</div></div>
+      <div class="sbox"><div class="snum g">HSC</div><div class="slbl">Q&amp;A Group</div></div>
+      <div class="sbox"><div class="snum g">CUET</div><div class="slbl">Mentors</div></div>
+    </div>
+
+    <div class="features">
+      <div class="card cg"><div class="ibox io">⚡</div><div><div class="card-title">What is EduSnap?</div><div class="card-desc">EduSnap is a student-run academic support initiative by CUET CSE students — providing fast, friendly doubt-solving for SSC & HSC students across Bangladesh.</div></div></div>
+      <div class="card cg"><div class="ibox il">🎯</div><div><div class="card-title">Our Mission</div><div class="card-desc">To make quality academic guidance accessible to every student — no coaching fees, no barriers. Just real students helping real students.</div></div></div>
+      <div class="card cg"><div class="ibox ir">❤️</div><div><div class="card-title">Who Runs This?</div><div class="card-desc">A team of passionate CUET CSE undergrads who want to give back to the community that shaped them.</div></div></div>
+    </div>
+
+    <div class="sec-div"><div class="sdl"></div><span class="sec-lbl">Find Us</span><div class="sdlr"></div></div>
+
+    <div class="lrow"><div class="lico">💬</div><div class="linfo"><div class="ltit">WhatsApp — SSC Group</div><div class="lurl">Link will be added here</div></div><div class="larr">→</div></div>
+    <div class="lrow"><div class="lico">💬</div><div class="linfo"><div class="ltit">WhatsApp — HSC Group</div><div class="lurl">Link will be added here</div></div><div class="larr">→</div></div>
+    <div class="lrow"><div class="lico">📘</div><div class="linfo"><div class="ltit">Facebook Page</div><div class="lurl">Link will be added here</div></div><div class="larr">→</div></div>
+
+    <div class="bot bot-g" style="margin-top:28px">
+      <div><div class="brand-name"><span style="color:#ffd866">Edu</span>Snap</div><div class="brand-sub">By CUET CSE Students · For Every Student</div></div>
+      <button class="jbtn jg">Learn More →</button>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script>
+  function showPage(name, btn) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active','hsc','edusnap'));
+    document.getElementById('page-' + name).classList.add('active');
+    btn.classList.add('active');
+    if (name === 'hsc')     btn.classList.add('hsc');
+    if (name === 'edusnap') btn.classList.add('edusnap');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 
-</head>
+  
+
 </body>
 </html>
